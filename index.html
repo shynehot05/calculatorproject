@@ -1,0 +1,100 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Untitled Document</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+<body>
+
+    <section>
+        <div class="grid-container">
+            <input class="item1-result" name="result" type="text" value="">
+            
+            <div class="item"  name="ce" value="CE" onclick="clear(ce)">CE</div>
+            <div class="item"name="plus_minus" value="+/-" onclick="calc(calculator.plus_minus.value);">+/-</div>  
+            <div class="item"   name= "perce" onclick="calc(calculator.perce.value);">>%</div>
+            <div class="item"  value="/" onclick="calc(calculator.divi.value);">/</div>
+            <br/>
+        
+            
+            
+            <div class="item"name="num7" value="7" onclick="calc(calculator.num7.value);">7</div>  
+            <div class="item"name="num8" value="8" onclick="calc(calculator.num8.value);">8</div>
+        
+            <div class="item" name="num9" value="9" onclick="calc(calculator.num9.value);">9</div>
+            
+            <div class="item" name="mul" value="*" onclick="calc(calculator.mul.value);">*</div>
+            <br/>
+            
+            <div class="item"value="4" onclick="calc(calculator.num4.value);">4</div>
+
+            
+            <div class="item" value="5" onclick="calc(calculator.num5.value);">5</div>
+        
+            <div class="item" value="6" onclick="calc(calculator.num6.value);">6</div>
+            
+            <div class="item"value="-" onclick="calc(calculator.num_minus.value);">-</div>
+            <br/>
+            <div class="item"value="1" onclick="calc(calculator.num1.value);">1</div>
+            
+        
+            <div class="item"value="2" onclick="calc(calculator.num2.value);">2</div>
+            <div class="item"value="3" onclick="calc(calculator.num3.value);">3</div>
+            <div class="item"value="+" onclick="calc(calculator.num_plus.value);">+</div>
+            <br/>
+            <div class="item" value="0" onclick="calc(calculator.num0.value);">0</div>
+            
+        
+            <div class="item"value="3" onclick="calc(calculator.num3.value);">.</div>
+            <div class="item" value="3"name="equal" value="=" onclick="document.getElementsByClassName('item1-result').value = eval(document.getElementsByClassName('item1-result').value);">=</div>
+            <div class="item29"></div>
+            
+            
+
+          </div>
+        
+
+    </section>
+
+
+
+
+
+
+
+    <script>
+        let inputs = document.getElementsByClassName('item');
+        console.log(inputs);
+        inputs.array.forEach((item) => {
+            //console.log('you clicked'+ input);
+       });
+
+
+
+
+       function calc(item){
+        let theResult= document.getElementClassName('item1-result');
+        theResult.value = theResult.value + item;
+    }
+    </script>
+
+
+</body>
+</head>
+</html>

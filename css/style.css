@@ -1,0 +1,29 @@
+html,body{
+
+}
+.item1-result {
+    grid-area:myArea;
+    height:100%;
+    width:89%;
+    gap:1
+  }
+.grid-container {
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea myArea myArea';
+    gap: 4px;
+    background-color: #2196F3;
+    padding: 10px 390px;
+    width:85%;
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .item16 {
+    grid-row:6/9;
+
+
+    background-color:crimson ;
+  }

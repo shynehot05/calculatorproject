@@ -1,0 +1,94 @@
+.slwadmin{
+	color:#F7F7F7;
+	padding:100px 400px;
+	background:url(../imgs/step-bg.jpg);
+	  height: 500px;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  position: relative;
+	  text-align:center;
+}
+.slwadmin h1{
+	font-size:80px;
+	font-weight:800;
+	font-family:inherit;
+font-family:"Segoe UI","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+text-shadow: 1px 1px #000;
+color:#fff;
+}
+.adfram{
+	background-color:#f8f8f8;
+	padding:20px;
+	width:100%;
+	text-align:justify;
+}
+.form-group p{
+	color:#f8f8f8;
+	font-size:12px;
+}
+.menu{
+	background-color:#1A1A1A;
+}
+.menu ul{
+    text-decoration: none;
+    color: #818181;
+	padding-left:0px;
+	height:100%;
+}
+.menu li{
+	list-style:none;
+	padding: 20px 5px;
+	border-bottom:1px solid #333;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #f8f8f8;
+	list-style:none;
+	text-transform:uppercase;
+	font-family:inherit;
+font-family:"Segoe UI","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+  font-weight:lighter;
+  font-weight:300;
+}
+/* When you mouse over the navigation links, change their color */
+.menu a:hover {
+    color: #ccc;
+}
+.dash{
+	background-color:#f8f8f8;
+	padding:20px;
+}
+.dash h2{
+	font-family:inherit;
+font-family:"Segoe UI","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+font-weight:700;
+color:#000000;
+font-size:50px;
+}
+.form-row{
+	margin:10px 0px;
+}
+.signup{
+	color:#f8f8f8;
+	padding:50px 400px;
+	background:url(../imgs/step-bg.jpg);
+	  height: 650px;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  position: relative;
+	  text-align:center;
+}
+.signup p{
+	text-align:left;
+}
+.signup h1{
+	font-size:50px;
+	font-weight:800;
+	font-family:inherit;
+font-family:"Segoe UI","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+text-shadow: 1px 1px #000;
+color:#fff;
+}
